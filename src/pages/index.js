@@ -10,6 +10,8 @@ import steamImage from "../images/assets/steam.jpg"
 
 import styles from "./index.module.scss";
 
+import { graphql } from 'gatsby'
+
 const HtmlToReactParser = require('html-to-react').Parser;
 let parser = new HtmlToReactParser();
 
