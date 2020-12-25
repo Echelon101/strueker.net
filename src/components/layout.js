@@ -9,7 +9,7 @@ const Layout = ({ children, noNavSpacer = false }) => {
       <div className={styles.content}>
           <Navbar noSpacer={noNavSpacer}/>
           {children}
-          <footer>&copy; Timo Strüker | <a href="//strueker.dev/legal/about">Imprint</a> | <a href="//strueker.dev/legal/datasec">Data Protection</a> | <a href={"https://github.com/Echelon101/strueker.net"}>Source Code</a></footer>
+          <footer>&copy; Timo Strüker | <a href="//strueker.dev/legal/about">Imprint</a> | <a href="//strueker.dev/legal/datasec">Data Protection</a> | <a href={"https://github.com/Echelon101/strueker.net"}>Source Code</a> | This website was designed by <a href="https://kevink.dev" target="_blank" rel="noreferrer">Kevin Kandlbinder</a></footer>
       </div>
   )
 }
