@@ -24,8 +24,8 @@ const IndexPage = ({ data }) => (
     <SEO title="Home" />
     <div className={styles.hero}>
       <div>
-        <span className={styles.title}>Unkn0wnCat</span>
-        <span className={styles.subtitle}>Gamer, Coder, Editor</span>
+        <span className={styles.title}>Timo Strüker</span>
+        <span className={styles.subtitle}>Gamer, System Administrator, Coder</span>
       </div>
     </div>
     <section>
@@ -39,20 +39,16 @@ const IndexPage = ({ data }) => (
       <div>
         <h1>Social</h1>
         <div className={styles.socialGrid}>
-          <a href="https://www.youtube.com/channel/UCCoZp-6_P3CVFj4clQ6uaeg" rel={"noreferrer"} target={"_blank"} style={makeStyle(youtubeImage)}>
-            <span className={styles.handle}>Unkn0wnCat</span>
-            <span className={styles.service}>YouTube</span>
-          </a>
-          <a href="https://www.twitch.tv/thatunkn0wncat" rel={"noreferrer"} target={"_blank"} style={makeStyle(twitchImage)}>
-            <span className={styles.handle}>ThatUnkn0wnCat</span>
+          <a href="https://www.twitch.tv/sorcererofroarhaven" rel={"noreferrer"} target={"_blank"} style={makeStyle(twitchImage)}>
+            <span className={styles.handle}>SorcererOfRoarhaven</span>
             <span className={styles.service}>Twitch</span>
           </a>
-          <a href="https://twitter.com/unkn0wnkevin" rel={"noreferrer"} target={"_blank"} style={makeStyle(twitterImage)}>
-            <span className={styles.handle}>@Unkn0wnKevin</span>
+          <a href="https://twitter.com/timomrx1" rel={"noreferrer"} target={"_blank"} style={makeStyle(twitterImage)}>
+            <span className={styles.handle}>@timomrx1</span>
             <span className={styles.service}>Twitter</span>
           </a>
-          <a href="https://steamcommunity.com/id/unkn0wncat" rel={"noreferrer"} target={"_blank"} style={makeStyle(steamImage)}>
-            <span className={styles.handle}>Unkn0wnCat</span>
+          <a href="https://steamcommunity.com/id/echelon101" rel={"noreferrer"} target={"_blank"} style={makeStyle(steamImage)}>
+            <span className={styles.handle}>OmenDarkly</span>
             <span className={styles.service}>Steam</span>
           </a>
         </div>

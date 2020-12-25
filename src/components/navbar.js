@@ -1,5 +1,5 @@
 import React from "react"
-import PropTypes from "prop-types"
+
 
 import { Link } from "gatsby"
 
@@ -17,8 +17,7 @@ const Navbar = ({ noSpacer = false }) => {
       <div className={styles.navBarPlaceholder} style={spacerStyle(noSpacer)}>
           <div className={styles.navBar}>
             <nav>
-              <Link to={"/"} className={styles.logo}>Unkn0wnCat.net</Link>
-              <Link to={"/videos"}>Videos</Link>
+              <Link to={"/"} className={styles.logo}>Strueker.net</Link>
             </nav>
           </div>
       </div>

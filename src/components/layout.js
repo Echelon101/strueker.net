@@ -9,7 +9,7 @@ const Layout = ({ children, noNavSpacer = false }) => {
       <div className={styles.content}>
           <Navbar noSpacer={noNavSpacer}/>
           {children}
-          <footer>&copy; Kevin Kandlbinder | <a href="//kevink.dev/legal/about">Imprint</a> | <a href="//kevink.dev/legal/datasec">Data Protection</a> | <a href={"https://github.com/Unkn0wnCat/Unkn0wnCat.net"}>Source Code</a></footer>
+          <footer>&copy; Timo Strüker | <a href="//strueker.dev/legal/about">Imprint</a> | <a href="//strueker.dev/legal/datasec">Data Protection</a> | <a href={"https://github.com/Echelon101/strueker.net"}>Source Code</a></footer>
       </div>
   )
 }
