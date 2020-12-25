@@ -6,7 +6,7 @@ module.exports = {
   siteMetadata: {
     title: `Strueker.net`,
     description: `A german gamer, coder, system administrator.`,
-    author: `@timomrx1`,
+    author: `@timomrx`,
     siteUrl: `https://strueker.net`,
   },
   plugins: [
@@ -36,6 +36,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-remark`,
+	`gatsby-plugin-robots-txt`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,
