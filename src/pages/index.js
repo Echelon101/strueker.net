@@ -45,8 +45,8 @@ const IndexPage = ({ data }) => (
             <span className={styles.handle}>SorcererOfRoarhaven</span>
             <span className={styles.service}>Twitch</span>
           </a>
-          <a href="https://twitter.com/timomrx1" rel={"noreferrer"} target={"_blank"} style={makeStyle(twitterImage)}>
-            <span className={styles.handle}>@timomrx1</span>
+          <a href="https://twitter.com/timomrx" rel={"noreferrer"} target={"_blank"} style={makeStyle(twitterImage)}>
+            <span className={styles.handle}>@timomrx</span>
             <span className={styles.service}>Twitter</span>
           </a>
           <a href="https://steamcommunity.com/id/echelon101" rel={"noreferrer"} target={"_blank"} style={makeStyle(steamImage)}>
