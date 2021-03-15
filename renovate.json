@@ -1,5 +1,12 @@
 {
   "extends": [
     "config:base"
+  ],
+  "assignees": [
+    "Echelon101"
+  ],
+  "automerge": true,
+  "baseBranches": [
+    "main"
   ]
 }
