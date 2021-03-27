@@ -1,4 +1,4 @@
-import React from "react"
+import * as React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -8,7 +8,7 @@ import twitchImage from "../images/assets/twitch.jpg"
 import twitterImage from "../images/assets/twitter.jpg"
 import steamImage from "../images/assets/steam.jpg"
 
-import styles from "./index.module.scss";
+import * as styles from "./index.module.scss";
 
 import { graphql } from 'gatsby'
 

@@ -1,9 +1,9 @@
-import React from "react"
+import * as React from "react"
 
 
 import { Link } from "gatsby"
 
-import styles from "./navbar.module.scss"
+import * as styles from "./navbar.module.scss"
 
 function spacerStyle(noSpacer) {
   if(noSpacer) {
