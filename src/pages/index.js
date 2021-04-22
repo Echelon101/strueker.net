@@ -1,4 +1,5 @@
-import * as React from "react"
+import React from "react"
+import { graphql } from 'gatsby'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -9,8 +10,6 @@ import twitterImage from "../images/assets/twitter.jpg"
 import steamImage from "../images/assets/steam.jpg"
 
 import * as styles from "./index.module.scss";
-
-import { graphql } from 'gatsby'
 
 const HtmlToReactParser = require('html-to-react').Parser;
 let parser = new HtmlToReactParser();
