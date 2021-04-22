@@ -4,7 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import youtubeImage from "../images/assets/youtube.jpg"
+//import youtubeImage from "../images/assets/youtube.jpg"
 import twitchImage from "../images/assets/twitch.jpg"
 import twitterImage from "../images/assets/twitter.jpg"
 import steamImage from "../images/assets/steam.jpg"
