@@ -7,7 +7,7 @@
     "Kevin Kandlbinder <kevin@kevink.dev> (https://kevink.dev)"
   ],
   "dependencies": {
-    "dotenv": "14.1.0",
+    "dotenv": "14.2.0",
     "gatsby": "2.32.13",
     "gatsby-plugin-manifest": "2.12.1",
     "gatsby-plugin-offline": "3.10.2",
